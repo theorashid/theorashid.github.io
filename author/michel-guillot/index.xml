@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Theo Rashid</title>
-    <link>https://theorashid.github.io/publication/</link>
-      <atom:link href="https://theorashid.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Michel Guillot | Theo Rashid</title>
+    <link>https://theorashid.github.io/author/michel-guillot/</link>
+      <atom:link href="https://theorashid.github.io/author/michel-guillot/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michel Guillot</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://theorashid.github.io/img/goal.png</url>
-      <title>Publications</title>
-      <link>https://theorashid.github.io/publication/</link>
+      <title>Michel Guillot</title>
+      <link>https://theorashid.github.io/author/michel-guillot/</link>
     </image>
     
     <item>
