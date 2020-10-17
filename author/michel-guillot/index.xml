@@ -5,12 +5,20 @@
     <link>https://theorashid.github.io/author/michel-guillot/</link>
       <atom:link href="https://theorashid.github.io/author/michel-guillot/index.xml" rel="self" type="application/rss+xml" />
     <description>Michel Guillot</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://theorashid.github.io/img/goal.png</url>
       <title>Michel Guillot</title>
       <link>https://theorashid.github.io/author/michel-guillot/</link>
     </image>
+    
+    <item>
+      <title>Magnitude, demographics and dynamics of the effect of the first wave of the COVID-19 pandemic on all-cause mortality in 21 industrialized countries</title>
+      <link>https://theorashid.github.io/publication/kontis-2020-a/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://theorashid.github.io/publication/kontis-2020-a/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Age- and sex-specific total mortality impacts of the early weeks of the Covid-19 pandemic in England and Wales: Application of a Bayesian model ensemble to mortality statistics</title>
