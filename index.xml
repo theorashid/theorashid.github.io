@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theo Rashid</title>
     <link>https://theorashid.github.io/</link>
-      <atom:link href="https://theorashid.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Theo Rashid</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://theorashid.github.io/img/goal.png</url>
-      <title>Theo Rashid</title>
-      <link>https://theorashid.github.io/</link>
-    </image>
+    <description>Recent content on Theo Rashid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://theorashid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Magnitude, demographics and dynamics of the effect of the first wave of the COVID-19 pandemic on all-cause mortality in 21 industrialized countries</title>
       <link>https://theorashid.github.io/publication/kontis-2020-a/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://theorashid.github.io/publication/kontis-2020-a/</guid>
       <description></description>
     </item>
@@ -24,6 +24,7 @@
       <title>A Shortening of the Life Cycle of Major Tropical Cyclones</title>
       <link>https://theorashid.github.io/publication/wang-2020/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://theorashid.github.io/publication/wang-2020/</guid>
       <description></description>
     </item>
@@ -32,27 +33,17 @@
       <title>Mortality in London</title>
       <link>https://theorashid.github.io/post/mortality_output/</link>
       <pubDate>Sun, 31 May 2020 11:10:55 +0100</pubDate>
+      
       <guid>https://theorashid.github.io/post/mortality_output/</guid>
-      <description>&lt;p&gt;We are building mortality models for simulated death data using a negative binomial likelihood. The dataset is for the London borough of Hammersmith and Fulham only.&lt;/p&gt;
-&lt;h1 id=&#34;life-expectancy-over-time&#34;&gt;Life expectancy over time&lt;/h1&gt;
-&lt;p&gt;Firstly for the &lt;em&gt;BYM&lt;/em&gt; model.&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_fig_BYM_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;And now for the &lt;em&gt;hierarchical&lt;/em&gt; model.&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_fig_hier_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;Both models show a Marmot curve and non-linarity in time.&lt;/p&gt;
-&lt;h1 id=&#34;life-expectancy-map&#34;&gt;Life expectancy map&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;BYM&lt;/em&gt; map&amp;hellip;&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_map_BYM_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;and &lt;em&gt;hierarchical&lt;/em&gt; map.&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_map_hier_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;Adjacent spatial units have more similar life expectancies in the &lt;em&gt;BYM&lt;/em&gt; model than the &lt;em&gt;hierarchical&lt;/em&gt; model, indicating more spatial smoothing.&lt;/p&gt;
-</description>
+      <description>We are building mortality models for simulated death data using a negative binomial likelihood. The dataset is for the London borough of Hammersmith and Fulham only.
+Life expectancy over time Firstly for the BYM model.</description>
     </item>
     
     <item>
       <title>Age- and sex-specific total mortality impacts of the early weeks of the Covid-19 pandemic in England and Wales: Application of a Bayesian model ensemble to mortality statistics</title>
       <link>https://theorashid.github.io/publication/kontis-2020/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://theorashid.github.io/publication/kontis-2020/</guid>
       <description></description>
     </item>
