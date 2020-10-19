@@ -2,8 +2,8 @@
   "name": "Theo Rashid",
   "short_name": "Theo Rashid",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#222222",
+  "background_color": "#222222",
   "icons": [{
     "src": "/images/icon_hu8a0fe45bcc616845b7260ca765bc9317_6300_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
