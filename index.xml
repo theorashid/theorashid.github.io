@@ -5,12 +5,28 @@
     <link>https://theorashid.github.io/</link>
       <atom:link href="https://theorashid.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Theo Rashid</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 21:01:52 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://theorashid.github.io/media/goal.png</url>
       <title>Theo Rashid</title>
       <link>https://theorashid.github.io/</link>
     </image>
+    
+    <item>
+      <title>Recentring our economy around wellbeing following the COVID-19 pandemic: A book review of The Case for Degrowth</title>
+      <link>https://theorashid.github.io/publication/rashid-2021/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://theorashid.github.io/publication/rashid-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making a COVID-19 vaccine that works for everyone: ensuring equity and inclusivity in clinical trials</title>
+      <link>https://theorashid.github.io/publication/pepperrell-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://theorashid.github.io/publication/pepperrell-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kepler.gl Mortality</title>
@@ -49,28 +65,7 @@
     </item>
     
     <item>
-      <title>Mortality in London</title>
-      <link>https://theorashid.github.io/post/mortality_output/</link>
-      <pubDate>Sun, 31 May 2020 11:10:55 +0100</pubDate>
-      <guid>https://theorashid.github.io/post/mortality_output/</guid>
-      <description>&lt;p&gt;We are building mortality models for simulated death data using a negative binomial likelihood. The dataset is for the London borough of Hammersmith and Fulham only.&lt;/p&gt;
-&lt;h1 id=&#34;life-expectancy-over-time&#34;&gt;Life expectancy over time&lt;/h1&gt;
-&lt;p&gt;Firstly for the &lt;em&gt;BYM&lt;/em&gt; model.&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_fig_BYM_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;And now for the &lt;em&gt;hierarchical&lt;/em&gt; model.&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_fig_hier_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;Both models show a Marmot curve and non-linarity in time.&lt;/p&gt;
-&lt;h1 id=&#34;life-expectancy-map&#34;&gt;Life expectancy map&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;BYM&lt;/em&gt; map&amp;hellip;&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_map_BYM_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;and &lt;em&gt;hierarchical&lt;/em&gt; map.&lt;/p&gt;
-&lt;iframe seamless src=&#34;le_map_hier_nb.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;Adjacent spatial units have more similar life expectancies in the &lt;em&gt;BYM&lt;/em&gt; model than the &lt;em&gt;hierarchical&lt;/em&gt; model, indicating more spatial smoothing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Age- and sex-specific total mortality impacts of the early weeks of the Covid-19 pandemic in England and Wales: Application of a Bayesian model ensemble to mortality statistics</title>
+      <title>Age- and sex-specific total mortality impacts of the early weeks of the COVID-19 pandemic in England and Wales: Application of a Bayesian model ensemble to mortality statistics</title>
       <link>https://theorashid.github.io/publication/kontis-2020/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       <guid>https://theorashid.github.io/publication/kontis-2020/</guid>

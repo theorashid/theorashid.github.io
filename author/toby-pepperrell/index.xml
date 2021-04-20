@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toby Pepperrell | Theo Rashid</title>
+    <link>https://theorashid.github.io/author/toby-pepperrell/</link>
+      <atom:link href="https://theorashid.github.io/author/toby-pepperrell/index.xml" rel="self" type="application/rss+xml" />
+    <description>Toby Pepperrell</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://theorashid.github.io/media/goal.png</url>
+      <title>Toby Pepperrell</title>
+      <link>https://theorashid.github.io/author/toby-pepperrell/</link>
+    </image>
+    
+    <item>
+      <title>Recentring our economy around wellbeing following the COVID-19 pandemic: A book review of The Case for Degrowth</title>
+      <link>https://theorashid.github.io/publication/rashid-2021/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://theorashid.github.io/publication/rashid-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making a COVID-19 vaccine that works for everyone: ensuring equity and inclusivity in clinical trials</title>
+      <link>https://theorashid.github.io/publication/pepperrell-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://theorashid.github.io/publication/pepperrell-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
