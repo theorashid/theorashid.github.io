@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>modelling | Theo Rashid</title>
-    <link>https://theorashid.github.io/category/modelling/</link>
-      <atom:link href="https://theorashid.github.io/category/modelling/index.xml" rel="self" type="application/rss+xml" />
-    <description>modelling</description>
+    <title>probabilistic programming | Theo Rashid</title>
+    <link>https://theorashid.github.io/category/probabilistic-programming/</link>
+      <atom:link href="https://theorashid.github.io/category/probabilistic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>probabilistic programming</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Sep 2021 19:12:55 +0100</lastBuildDate>
     <image>
       <url>https://theorashid.github.io/media/goal.png</url>
-      <title>modelling</title>
-      <link>https://theorashid.github.io/category/modelling/</link>
+      <title>probabilistic programming</title>
+      <link>https://theorashid.github.io/category/probabilistic-programming/</link>
     </image>
     
     <item>
