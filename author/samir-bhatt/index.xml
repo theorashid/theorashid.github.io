@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samir Bhatt | Theo Rashid</title>
+    <link>https://theorashid.github.io/author/samir-bhatt/</link>
+      <atom:link href="https://theorashid.github.io/author/samir-bhatt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Samir Bhatt</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://theorashid.github.io/media/goal.png</url>
+      <title>Samir Bhatt</title>
+      <link>https://theorashid.github.io/author/samir-bhatt/</link>
+    </image>
+    
+    <item>
+      <title>Encoding spatiotemporal priors with VAEs for small-area estimation</title>
+      <link>https://theorashid.github.io/publication/semenova-2021/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://theorashid.github.io/publication/semenova-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
