@@ -5,12 +5,85 @@
     <link>https://theorashid.github.io/post/</link>
       <atom:link href="https://theorashid.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Sep 2021 19:12:55 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate>
     <image>
       <url>https://theorashid.github.io/media/goal.png</url>
       <title>Posts</title>
       <link>https://theorashid.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Trying to benchmark probabilistic programming languages</title>
+      <link>https://theorashid.github.io/post/ppl-benchmark-help/</link>
+      <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
+      <guid>https://theorashid.github.io/post/ppl-benchmark-help/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Help me&lt;/strong&gt; compare probabilistic programming languages.&lt;/p&gt;
+&lt;p&gt;I have a &lt;a href=&#34;https://github.com/theorashid/probabilistic-programming-packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repo&lt;/a&gt; for comparing various probabilistic programming languages (PPLs) in R, python and Julia in fitting a simple hierarchical model on a football dataset.&lt;/p&gt;
+&lt;p&gt;The current results are below, but they are very preliminary and there are plenty of other PPLs which I am yet to implement successfully. I am aware comparing MCMC samplers is a &lt;a href=&#34;https://statmodeling.stat.columbia.edu/2021/11/17/its-so-hard-to-compare-the-efficiency-of-mcmc-samplers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;flawed exercise&lt;/a&gt;, and that drawing grand conclusions about the best PPL based on its performance one very specific model is dishonest. But that&amp;rsquo;s why I&amp;rsquo;d like help, &lt;strong&gt;particularly from PPL developers&lt;/strong&gt; who can tune their model and give their language the best shot at &lt;strong&gt;ranking first&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;There are a list of current issues at the bottom. Please get in touch if you&amp;rsquo;d like to help with this project, either &lt;a href=&#34;mailto:theoaorashid@gmail.com?subject=ppl%20project&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/theorashid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, or (even better) create a pull request.&lt;/p&gt;
+&lt;p&gt;Finally, if you know of an appropriate outlet for this work, such as the &lt;a href=&#34;https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;site of a PPL&lt;/a&gt; or a statistical blog, contact me and we can write it up. Otherwise, it will remain open only to the minimal traffic of this site.&lt;/p&gt;
+&lt;h2 id=&#34;current-results&#34;&gt;Current results&lt;/h2&gt;
+&lt;p&gt;These are &lt;strong&gt;very&lt;/strong&gt; preliminary results based on the minimum effective sample size (ESS) across all parameters. Each model was run for a single chain of 10000 iterations (with 1000 warmup). All PPLs were run in &lt;a href=&#34;https://colab.research.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;PPL&lt;/th&gt;
+&lt;th&gt;compile time (s)&lt;/th&gt;
+&lt;th&gt;CPU ESS/second&lt;/th&gt;
+&lt;th&gt;GPU ESS/second&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;stan&lt;/td&gt;
+&lt;td&gt;14.8&lt;/td&gt;
+&lt;td&gt;181.1&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nimble&lt;/td&gt;
+&lt;td&gt;7.7&lt;/td&gt;
+&lt;td&gt;24.2&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;JAGS&lt;/td&gt;
+&lt;td&gt;5.0&lt;/td&gt;
+&lt;td&gt;286.3&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PyMC&lt;/td&gt;
+&lt;td&gt;8.8&lt;/td&gt;
+&lt;td&gt;63.8&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numpyro&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;293.8&lt;/td&gt;
+&lt;td&gt;10.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Turing&lt;/td&gt;
+&lt;td&gt;14.9&lt;/td&gt;
+&lt;td&gt;16.3&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;help-wanted&#34;&gt;Help wanted&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Models.&lt;/strong&gt; A number of PPLs have &lt;strong&gt;not&lt;/strong&gt; yet been &lt;strong&gt;implemented&lt;/strong&gt; (&lt;a href=&#34;https://www.tensorflow.org/probability/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tensorflow probability&lt;/a&gt;, &lt;a href=&#34;https://beanmachine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bean Machine&lt;/a&gt;, &lt;a href=&#34;https://github.com/google/edward2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;edward2&lt;/a&gt;, &lt;a href=&#34;https://www.gen.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gen&lt;/a&gt;, &lt;a href=&#34;https://cscherrer.github.io/Soss.jl/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soss&lt;/a&gt;, &lt;a href=&#34;https://github.com/rlouf/mcx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCX&lt;/a&gt;, &lt;a href=&#34;https://github.com/blackjax-devs/blackjax&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blackjax&lt;/a&gt;). There are also plenty (I assume) of issues with my implementations. This is where PPL experts can come in and clean up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Errors.&lt;/strong&gt; The JAGS standard deviation parameters seem to be off. The Turing model is running extremely slowly. PyMC are releasing their &lt;a href=&#34;https://github.com/pymc-devs/pymc/releases/tag/v4.0.0b1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aesara-backed v4&lt;/a&gt;, which will undoubtedly speed things up. And numpyro is running &lt;em&gt;slower&lt;/em&gt; on a &lt;strong&gt;G&lt;/strong&gt;PU?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparing samplers.&lt;/strong&gt; JAGS and NIMBLE are running their default MCMC. All the other PPLs are running NUTS. Are these comparable? Do the NUTS algorithms all need the same settings?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple chains.&lt;/strong&gt; Here, a single chain was run. We should run multiple chains to explore which PPL works best in parallel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metrics.&lt;/strong&gt; Is the minimum effective sample size per second the best metric? Can we also compare qualitatively how easy each PPL was to set up? (In my opinion, Turing code reads the best.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware.&lt;/strong&gt; All the models were run on Colab, but this should be switched out for something better-performing and more consistent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Find the repo &lt;a href=&#34;https://github.com/theorashid/probabilistic-programming-packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pyro: a guide to winning the Premier League</title>

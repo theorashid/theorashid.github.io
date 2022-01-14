@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="PhD Student">
+  <meta name="description" content="Help needed for benchmarking probabilistic programming languages.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://theorashid.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://theorashid.github.io/post/ppl-benchmark-help/">
 
   
 
@@ -255,14 +255,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Theo Rashid">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu8a0fe45bcc616845b7260ca765bc9317_6300_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu8a0fe45bcc616845b7260ca765bc9317_6300_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://theorashid.github.io/authors/">
+  <link rel="canonical" href="https://theorashid.github.io/post/ppl-benchmark-help/">
 
   
   
@@ -280,18 +278,63 @@
   <meta property="twitter:creator" content="@theorashid">
   
   <meta property="og:site_name" content="Theo Rashid">
-  <meta property="og:url" content="https://theorashid.github.io/authors/">
-  <meta property="og:title" content="Authors | Theo Rashid">
-  <meta property="og:description" content="PhD Student"><meta property="og:image" content="https://theorashid.github.io/media/goal.png">
+  <meta property="og:url" content="https://theorashid.github.io/post/ppl-benchmark-help/">
+  <meta property="og:title" content="Trying to benchmark probabilistic programming languages | Theo Rashid">
+  <meta property="og:description" content="Help needed for benchmarking probabilistic programming languages."><meta property="og:image" content="https://theorashid.github.io/media/goal.png">
   <meta property="twitter:image" content="https://theorashid.github.io/media/goal.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-01-14T12:42:43&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-01-14T12:42:43&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-01-14T12:42:43&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://theorashid.github.io/post/ppl-benchmark-help/"
+  },
+  "headline": "Trying to benchmark probabilistic programming languages",
+  
+  "datePublished": "2022-01-14T12:42:43Z",
+  "dateModified": "2022-01-14T12:42:43Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Theo Rashid"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Theo Rashid",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theorashid.github.io/images/icon_hu8a0fe45bcc616845b7260ca765bc9317_6300_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Help needed for benchmarking probabilistic programming languages."
+}
+</script>
+
+  
 
   
 
@@ -299,10 +342,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | Theo Rashid</title>
+
+
+  <title>Trying to benchmark probabilistic programming languages | Theo Rashid</title>
 
 </head>
 
@@ -562,88 +608,316 @@
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Trying to benchmark probabilistic programming languages</h1>
+
+  
+  <p class="page-subtitle">And a cry for help.</p>
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+
+
+<div class="article-metadata">
 
   
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/author/theo-rashid/">Theo Rashid</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 14, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/probabilistic-programming/">probabilistic programming</a>, <a href="/category/modelling/">modelling</a>, <a href="/category/statistics/">statistics</a>, <a href="/category/football/">football</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
+    <div class="article-style">
+      <p><strong>Help me</strong> compare probabilistic programming languages.</p>
+<p>I have a <a href="https://github.com/theorashid/probabilistic-programming-packages" target="_blank" rel="noopener">repo</a> for comparing various probabilistic programming languages (PPLs) in R, python and Julia in fitting a simple hierarchical model on a football dataset.</p>
+<p>The current results are below, but they are very preliminary and there are plenty of other PPLs which I am yet to implement successfully. I am aware comparing MCMC samplers is a <a href="https://statmodeling.stat.columbia.edu/2021/11/17/its-so-hard-to-compare-the-efficiency-of-mcmc-samplers/" target="_blank" rel="noopener">flawed exercise</a>, and that drawing grand conclusions about the best PPL based on its performance one very specific model is dishonest. But that&rsquo;s why I&rsquo;d like help, <strong>particularly from PPL developers</strong> who can tune their model and give their language the best shot at <strong>ranking first</strong>.</p>
+<p>There are a list of current issues at the bottom. Please get in touch if you&rsquo;d like to help with this project, either <a href="mailto:theoaorashid@gmail.com?subject=ppl%20project">here</a>, <a href="https://twitter.com/theorashid" target="_blank" rel="noopener">here</a>, or (even better) create a pull request.</p>
+<p>Finally, if you know of an appropriate outlet for this work, such as the <a href="https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/" target="_blank" rel="noopener">site of a PPL</a> or a statistical blog, contact me and we can write it up. Otherwise, it will remain open only to the minimal traffic of this site.</p>
+<h2 id="current-results">Current results</h2>
+<p>These are <strong>very</strong> preliminary results based on the minimum effective sample size (ESS) across all parameters. Each model was run for a single chain of 10000 iterations (with 1000 warmup). All PPLs were run in <a href="https://colab.research.google.com" target="_blank" rel="noopener">Colab</a>.</p>
+<table>
+<thead>
+<tr>
+<th>PPL</th>
+<th>compile time (s)</th>
+<th>CPU ESS/second</th>
+<th>GPU ESS/second</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stan</td>
+<td>14.8</td>
+<td>181.1</td>
+<td>–</td>
+</tr>
+<tr>
+<td>nimble</td>
+<td>7.7</td>
+<td>24.2</td>
+<td>–</td>
+</tr>
+<tr>
+<td>JAGS</td>
+<td>5.0</td>
+<td>286.3</td>
+<td>–</td>
+</tr>
+<tr>
+<td>PyMC</td>
+<td>8.8</td>
+<td>63.8</td>
+<td>–</td>
+</tr>
+<tr>
+<td>numpyro</td>
+<td>7.2</td>
+<td>293.8</td>
+<td>10.9</td>
+</tr>
+<tr>
+<td>Turing</td>
+<td>14.9</td>
+<td>16.3</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+<h2 id="help-wanted">Help wanted</h2>
+<ul>
+<li><strong>Models.</strong> A number of PPLs have <strong>not</strong> yet been <strong>implemented</strong> (<a href="https://www.tensorflow.org/probability/" target="_blank" rel="noopener">tensorflow probability</a>, <a href="https://beanmachine.org/" target="_blank" rel="noopener">Bean Machine</a>, <a href="https://github.com/google/edward2" target="_blank" rel="noopener">edward2</a>, <a href="https://www.gen.dev/" target="_blank" rel="noopener">Gen</a>, <a href="https://cscherrer.github.io/Soss.jl/stable/" target="_blank" rel="noopener">Soss</a>, <a href="https://github.com/rlouf/mcx" target="_blank" rel="noopener">MCX</a>, <a href="https://github.com/blackjax-devs/blackjax" target="_blank" rel="noopener">blackjax</a>). There are also plenty (I assume) of issues with my implementations. This is where PPL experts can come in and clean up.</li>
+<li><strong>Errors.</strong> The JAGS standard deviation parameters seem to be off. The Turing model is running extremely slowly. PyMC are releasing their <a href="https://github.com/pymc-devs/pymc/releases/tag/v4.0.0b1" target="_blank" rel="noopener">Aesara-backed v4</a>, which will undoubtedly speed things up. And numpyro is running <em>slower</em> on a <strong>G</strong>PU?</li>
+<li><strong>Comparing samplers.</strong> JAGS and NIMBLE are running their default MCMC. All the other PPLs are running NUTS. Are these comparable? Do the NUTS algorithms all need the same settings?</li>
+<li><strong>Multiple chains.</strong> Here, a single chain was run. We should run multiple chains to explore which PPL works best in parallel.</li>
+<li><strong>Metrics.</strong> Is the minimum effective sample size per second the best metric? Can we also compare qualitatively how easy each PPL was to set up? (In my opinion, Turing code reads the best.)</li>
+<li><strong>Hardware.</strong> All the models were run on Colab, but this should be switched out for something better-performing and more consistent.</li>
+</ul>
+<p><em>Find the repo <a href="https://github.com/theorashid/probabilistic-programming-packages" target="_blank" rel="noopener">here</a>.</em></p>
+
+    </div>
+
     
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <li><a href="https://theorashid.github.io/author/theo-rashid/">Theo Rashid</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://theorashid.github.io/post/ppl-benchmark-help/&amp;text=Trying%20to%20benchmark%20probabilistic%20programming%20languages" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://theorashid.github.io/author/adam-howes/">Adam Howes</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://theorashid.github.io/post/ppl-benchmark-help/&amp;t=Trying%20to%20benchmark%20probabilistic%20programming%20languages" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://theorashid.github.io/author/elizaveta-semenova/">Elizaveta Semenova</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Trying%20to%20benchmark%20probabilistic%20programming%20languages&amp;body=https://theorashid.github.io/post/ppl-benchmark-help/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://theorashid.github.io/author/samir-bhatt/">Samir Bhatt</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://theorashid.github.io/post/ppl-benchmark-help/&amp;title=Trying%20to%20benchmark%20probabilistic%20programming%20languages" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://theorashid.github.io/author/seth-flaxman/">Seth Flaxman</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Trying%20to%20benchmark%20probabilistic%20programming%20languages%20https://theorashid.github.io/post/ppl-benchmark-help/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://theorashid.github.io/author/swapnil-mishra/">Swapnil Mishra</a></li>
-    
       
-      <li><a href="https://theorashid.github.io/author/yidan-xu/">Yidan Xu</a></li>
-    
       
-      <li><a href="https://theorashid.github.io/author/bethan-davies/">Bethan Davies</a></li>
-    
+        
       
-      <li><a href="https://theorashid.github.io/author/christopher-j-paciorek/">Christopher J Paciorek </a></li>
-    
       
-      <li><a href="https://theorashid.github.io/author/eric-johnson/">Eric Johnson</a></li>
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://theorashid.github.io/post/ppl-benchmark-help/&amp;title=Trying%20to%20benchmark%20probabilistic%20programming%20languages" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/pyro-pl-model/">Pyro: a guide to winning the Premier League</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
 
       
 
