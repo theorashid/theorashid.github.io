@@ -1,28 +1,337 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>statistics on Theo Rashid</title>
+    <title>statistics | Theo Rashid</title>
     <link>https://theorashid.github.io/category/statistics/</link>
-    <description>Recent content in statistics on Theo Rashid</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/category/statistics/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://theorashid.github.io/category/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>statistics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate>
+    <image>
+      <url>https://theorashid.github.io/media/goal.png</url>
+      <title>statistics</title>
+      <link>https://theorashid.github.io/category/statistics/</link>
+    </image>
+    
     <item>
       <title>Trying to benchmark probabilistic programming languages</title>
       <link>https://theorashid.github.io/post/ppl-benchmark-help/</link>
       <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
-      
       <guid>https://theorashid.github.io/post/ppl-benchmark-help/</guid>
-      <description>Help needed for benchmarking probabilistic programming languages.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Help me&lt;/strong&gt; compare probabilistic programming languages.&lt;/p&gt;
+&lt;p&gt;I have a &lt;a href=&#34;https://github.com/theorashid/probabilistic-programming-packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repo&lt;/a&gt; for comparing various probabilistic programming languages (PPLs) in R, python and Julia in fitting a simple hierarchical model on a football dataset.&lt;/p&gt;
+&lt;p&gt;The current results are below, but they are very preliminary and there are plenty of other PPLs which I am yet to implement successfully. I am aware comparing MCMC samplers is a &lt;a href=&#34;https://statmodeling.stat.columbia.edu/2021/11/17/its-so-hard-to-compare-the-efficiency-of-mcmc-samplers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;flawed exercise&lt;/a&gt;, and that drawing grand conclusions about the best PPL based on its performance one very specific model is dishonest. But that&amp;rsquo;s why I&amp;rsquo;d like help, &lt;strong&gt;particularly from PPL developers&lt;/strong&gt; who can tune their model and give their language the best shot at &lt;strong&gt;ranking first&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;There are a list of current issues at the bottom. Please get in touch if you&amp;rsquo;d like to help with this project, either &lt;a href=&#34;mailto:theoaorashid@gmail.com?subject=ppl%20project&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/theorashid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, or (even better) create a pull request.&lt;/p&gt;
+&lt;p&gt;Finally, if you know of an appropriate outlet for this work, such as the &lt;a href=&#34;https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;site of a PPL&lt;/a&gt; or a statistical blog, contact me and we can write it up. Otherwise, it will remain open only to the minimal traffic of this site.&lt;/p&gt;
+&lt;h2 id=&#34;current-results&#34;&gt;Current results&lt;/h2&gt;
+&lt;p&gt;These are &lt;strong&gt;very&lt;/strong&gt; preliminary results based on the minimum effective sample size (ESS) across all parameters. Each model was run for a single chain of 10000 iterations (with 1000 warmup). All PPLs were run in &lt;a href=&#34;https://colab.research.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;PPL&lt;/th&gt;
+&lt;th&gt;compile time (s)&lt;/th&gt;
+&lt;th&gt;CPU ESS/second&lt;/th&gt;
+&lt;th&gt;GPU ESS/second&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;stan&lt;/td&gt;
+&lt;td&gt;14.8&lt;/td&gt;
+&lt;td&gt;181.1&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nimble&lt;/td&gt;
+&lt;td&gt;7.7&lt;/td&gt;
+&lt;td&gt;24.2&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;JAGS&lt;/td&gt;
+&lt;td&gt;5.0&lt;/td&gt;
+&lt;td&gt;286.3&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PyMC&lt;/td&gt;
+&lt;td&gt;8.8&lt;/td&gt;
+&lt;td&gt;63.8&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numpyro&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;293.8&lt;/td&gt;
+&lt;td&gt;10.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Turing&lt;/td&gt;
+&lt;td&gt;14.9&lt;/td&gt;
+&lt;td&gt;16.3&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;help-wanted&#34;&gt;Help wanted&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Models.&lt;/strong&gt; A number of PPLs have &lt;strong&gt;not&lt;/strong&gt; yet been &lt;strong&gt;implemented&lt;/strong&gt; (&lt;a href=&#34;https://www.tensorflow.org/probability/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tensorflow probability&lt;/a&gt;, &lt;a href=&#34;https://beanmachine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bean Machine&lt;/a&gt;, &lt;a href=&#34;https://github.com/google/edward2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;edward2&lt;/a&gt;, &lt;a href=&#34;https://www.gen.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gen&lt;/a&gt;, &lt;a href=&#34;https://cscherrer.github.io/Soss.jl/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soss&lt;/a&gt;, &lt;a href=&#34;https://github.com/rlouf/mcx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCX&lt;/a&gt;, &lt;a href=&#34;https://github.com/blackjax-devs/blackjax&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blackjax&lt;/a&gt;). There are also plenty (I assume) of issues with my implementations. This is where PPL experts can come in and clean up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Errors.&lt;/strong&gt; The JAGS standard deviation parameters seem to be off. The Turing model is running extremely slowly. PyMC are releasing their &lt;a href=&#34;https://github.com/pymc-devs/pymc/releases/tag/v4.0.0b1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aesara-backed v4&lt;/a&gt;, which will undoubtedly speed things up. And numpyro is running &lt;em&gt;slower&lt;/em&gt; on a &lt;strong&gt;G&lt;/strong&gt;PU?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparing samplers.&lt;/strong&gt; JAGS and NIMBLE are running their default MCMC. All the other PPLs are running NUTS. Are these comparable? Do the NUTS algorithms all need the same settings?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple chains.&lt;/strong&gt; Here, a single chain was run. We should run multiple chains to explore which PPL works best in parallel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metrics.&lt;/strong&gt; Is the minimum effective sample size per second the best metric? Can we also compare qualitatively how easy each PPL was to set up? (In my opinion, Turing code reads the best.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware.&lt;/strong&gt; All the models were run on Colab, but this should be switched out for something better-performing and more consistent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Find the repo &lt;a href=&#34;https://github.com/theorashid/probabilistic-programming-packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Pyro: a guide to winning the Premier League</title>
       <link>https://theorashid.github.io/post/pyro-pl-model/</link>
       <pubDate>Sat, 25 Sep 2021 19:12:55 +0100</pubDate>
-      
       <guid>https://theorashid.github.io/post/pyro-pl-model/</guid>
-      <description>Using Pyro and SVI to predict football results.</description>
+      <description>&lt;p&gt;&amp;ldquo;West Ham are playing Norwich later. What do you reckon the score will be?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Our gut might tell us which team will win. But how can we quantify this intuition? And what uncertainty do we attach to our belief in the result?&lt;/p&gt;
+&lt;p&gt;This sort of question is ideally suited to a Bayesian modelling framework. Here, we&amp;rsquo;ll build a model to predict future scorelines with uncertainty based on past results using &lt;a href=&#34;https://pyro.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Pyro&lt;/strong&gt;&lt;/a&gt; – a &amp;ldquo;Deep Universal Probabilistic Programming&amp;rdquo; language – and make use of its PyTorch backend by tuning the model with stochastic variational inference (SVI).&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
+&lt;p&gt;The aim is to train a model on the results of the first 33 rounds of a Premier League season. Then, use this model to predict the scorelines of the final games of the season.&lt;/p&gt;
+&lt;p&gt;No model is perfect, and this one is very basic. With data collected in modern football on everything from player movement to the atmospheric conditions inside the stadium, the potential complexity of the model is huge. We&amp;rsquo;ll stick to three factors: the attacking strength of each team; the defending strength of each team; and the home advantage.&lt;/p&gt;
+&lt;h2 id=&#34;the-model&#34;&gt;The model&lt;/h2&gt;
+&lt;p&gt;This &lt;strong&gt;Bayesian multilevel model&lt;/strong&gt; is (heavily) inspired by &lt;a href=&#34;https://discovery.ucl.ac.uk/id/eprint/16040/1/16040.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baio and Blangiardo&lt;/a&gt;. For each game, $g$, the number of goals scored, $s$, by the home ($j=1$) or away ($j=2$) team follows a Poisson distribution
+$$ s_{gj} | \theta_{gj} \sim Poisson(\theta_{gj}). $$&lt;/p&gt;
+&lt;p&gt;The (positive) scoring rates are made up of an overall offset, a home advantage and team-specific strengths,
+$$ \log(\theta_{g1}) = \alpha + home + attack_{h(g)} - defend_{a(g)}, $$
+$$ \log(\theta_{g2}) = \alpha + attack_{a(g)} - defend_{h(g)}, $$&lt;/p&gt;
+&lt;p&gt;where the nested indexes $h(g)$ and $a(g)$ identify the home and away teams. For each team, $t (= h(g), a(g))$, we model their attacking and defensive strength using normal distributions centred on zero with common standard deviations,
+$$ attack_{t} \sim \mathcal{N}(0, \sigma_{att}^2),$$
+$$ defend_{t} \sim \mathcal{N}(0, \sigma_{def}^2).$$&lt;/p&gt;
+&lt;p&gt;Finally the hyperpriors round off the Bayesian model,
+$$ home \sim \mathcal{N}(0, 1),$$
+$$ \sigma_{att} \sim HalfStudentT(3, 0, 2.5),$$
+$$ \sigma_{def} \sim HalfStudentT(3, 0, 2.5).$$&lt;/p&gt;
+&lt;p&gt;The model written using Pyro:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def model(home_id, away_id, score1_obs=None, score2_obs=None):
+    # hyperpriors
+    alpha = pyro.sample(&amp;quot;alpha&amp;quot;, dist.Normal(0.0, 1.0))
+    sd_att = pyro.sample(&amp;quot;sd_att&amp;quot;, dist.TransformedDistribution(dist.StudentT(3.0, 0.0, 2.5), FoldedTransform()))
+    sd_def = pyro.sample(&amp;quot;sd_def&amp;quot;, dist.TransformedDistribution(dist.StudentT(3.0, 0.0, 2.5), FoldedTransform()))
+
+    home = pyro.sample(&amp;quot;home&amp;quot;, dist.Normal(0.0, 1.0))  # home advantage
+
+    nt = len(np.unique(home_id))
+
+    # team-specific model parameters
+    with pyro.plate(&amp;quot;plate_teams&amp;quot;, nt):
+        attack = pyro.sample(&amp;quot;attack&amp;quot;, dist.Normal(0, sd_att))
+        defend = pyro.sample(&amp;quot;defend&amp;quot;, dist.Normal(0, sd_def))
+
+    # likelihood
+    theta1 = torch.exp(alpha + home + attack[home_id] - defend[away_id])
+    theta2 = torch.exp(alpha + attack[away_id] - defend[home_id])
+
+    with pyro.plate(&amp;quot;data&amp;quot;, len(home_id)):
+        pyro.sample(&amp;quot;s1&amp;quot;, dist.Poisson(theta1), obs=score1_obs)
+        pyro.sample(&amp;quot;s2&amp;quot;, dist.Poisson(theta2), obs=score2_obs)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;inference&#34;&gt;Inference&lt;/h2&gt;
+&lt;p&gt;If we were tuning our model parameters using sampling methods, that would be it. Press play, let the sampler run, wait until you have enough samples&amp;hellip; done. But we&amp;rsquo;re going to use &lt;a href=&#34;http://pyro.ai/examples/svi_part_i.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;variational inference&lt;/strong&gt;&lt;/a&gt; to optimise our parameters. For this, Pyro requires a &lt;strong&gt;guide&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-guide&#34;&gt;The guide&lt;/h3&gt;
+&lt;p&gt;The idea behind variational inference is to approximate a complex distribution – our true posterior, $p(\mathbf{z}|\mathbf{x})$ – with a simpler one – the variational distribtion, $q(\mathbf{z})$. In Pyro-speak, the variational distribution is called the &lt;em&gt;guide&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If possible, let Pyro do the process for you with an &lt;a href=&#34;https://docs.pyro.ai/en/stable/infer.autoguide.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AutoGuide&lt;/a&gt;. Designing a custom guide is by far the hardest part of using Pyro and it should be avoided.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We need to specify a guide that is flexible enough to closely describe the posterior. Often, we can simply micic the model prior, setting the parameters of each of the prior distributions as variational parameters, which we will learn. But you are free to customise the guide as you want, as long as the dimensionality of the model and guide are consistent.&lt;/p&gt;
+&lt;p&gt;When writing a guide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Every &lt;code&gt;pyro.sample&lt;/code&gt; statement that appears in the model must have a &lt;strong&gt;corresponding &lt;code&gt;pyro.sample&lt;/code&gt; statement with the same name in the guide&lt;/strong&gt;, with the expection of those with the &lt;code&gt;obs&lt;/code&gt; keyword .&lt;/li&gt;
+&lt;li&gt;The parameters that make up the &lt;code&gt;pyro.sample&lt;/code&gt; distributions in the guide require their own &lt;code&gt;pyro.param&lt;/code&gt; statements. These &lt;strong&gt;variational parameters&lt;/strong&gt; are going to be trained during inference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;ve kept the guide below fairly simple with normal distributions where possible and log-normal distributions for the positive parameters. &lt;strong&gt;SVI is an approximate method&lt;/strong&gt;; these simple distributions will mask some of the complexity in the posterior distribution, no matter how well the inference goes. You can construct a more sophisticated guide to improve its performance.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def guide(home_id, away_id, score1_obs=None, score2_obs=None):
+    mu_locs = pyro.param(&amp;quot;mu_loc&amp;quot;, torch.tensor(0.0).expand(4))
+    mu_scales = pyro.param(&amp;quot;mu_scale&amp;quot;, torch.tensor(0.1).expand(4), constraint=constraints.positive)
+
+    pyro.sample(&amp;quot;alpha&amp;quot;, dist.Normal(mu_locs[0], mu_scales[0]))
+    pyro.sample(&amp;quot;sd_att&amp;quot;, dist.LogNormal(mu_locs[1], mu_scales[1]))
+    pyro.sample(&amp;quot;sd_def&amp;quot;, dist.LogNormal(mu_locs[2], mu_scales[2]))
+    pyro.sample(&amp;quot;home&amp;quot;, dist.Normal(mu_locs[3], mu_scales[3]))  # home advantage
+
+    nt = len(np.unique(home_id))
+
+    mu_team_locs = pyro.param(&amp;quot;mu_team_loc&amp;quot;, torch.tensor(0.0).expand(2, nt))
+    mu_team_scales = pyro.param(&amp;quot;mu_team_scale&amp;quot;, torch.tensor(0.1).expand(2, nt), constraint=constraints.positive)
+
+    with pyro.plate(&amp;quot;plate_teams&amp;quot;, nt):
+        pyro.sample(&amp;quot;attack&amp;quot;, dist.Normal(mu_team_locs[0], mu_team_scales[0]))
+        pyro.sample(&amp;quot;defend&amp;quot;, dist.Normal(mu_team_locs[1], mu_team_scales[1]))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can now train the model using SVI on the first 33 rounds of Premier League football matches. The training process aims to find the &lt;code&gt;pyro.param&lt;/code&gt; values that get the guide as close as possible to the posterior.&lt;/p&gt;
+&lt;p&gt;Below are posterior estimates for the &lt;code&gt;attack&lt;/code&gt; and &lt;code&gt;defend&lt;/code&gt; parameters. As expected, Manchester City and Liverpool are the strongest teams.&lt;/p&gt;
+&lt;p&gt;&lt;embed type=&#34;text/html&#34; src=&#34;fig/team_strengths.html&#34; width=&#34;800&#34; height=&#34;620&#34;&gt;&lt;/embed&gt;&lt;/p&gt;
+&lt;h2 id=&#34;prediction&#34;&gt;Prediction&lt;/h2&gt;
+&lt;p&gt;Here lies the beauty of a generative model. We can now feed any combination of teams into the trained model and &lt;strong&gt;simulate a game&lt;/strong&gt;. (You can even play out nonsenical matches like Machester United against Manchester United.)&lt;/p&gt;
+&lt;p&gt;The model is Bayesian, so we can generate samples for a fixture – imaginary head-to-heads between the same two teams – and probabilistically determine each team&amp;rsquo;s chance of winning the match. We&amp;rsquo;ll input the fixture list of the final 5 rounds of matches in the &lt;code&gt;predict&lt;/code&gt; dataframe and simulate 2000 games.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;predictive = Predictive(model=model, guide=guide, num_samples=2000, return_sites=[&amp;quot;s1&amp;quot;, &amp;quot;s2&amp;quot;])
+predicted_score = predictive(home_id=predict[&amp;quot;Home_id&amp;quot;].values, away_id=predict[&amp;quot;Away_id&amp;quot;].values)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Taking an example from this fixture list – Chelsea hosting Norwich – we can see that Chelsea dominated the majority of the matches. We expect this as Chelsea have the home advantage and a stronger side. But, as the model is probabilistic, there are still many scenarios in which Norwich came out on top.
+&lt;img src=&#34;fig/chelsea_norwich.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Using the mean number of goals scored by each team across all simulations, we can compare the true final table and our model predictions.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Team&lt;/th&gt;
+&lt;th&gt;Points&lt;/th&gt;
+&lt;th&gt;GD&lt;/th&gt;
+&lt;th&gt;Predicted Points&lt;/th&gt;
+&lt;th&gt;Predicted GD&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Liverpool FC&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;52&lt;/td&gt;
+&lt;td&gt;104&lt;/td&gt;
+&lt;td&gt;52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Manchester City FC&lt;/td&gt;
+&lt;td&gt;81&lt;/td&gt;
+&lt;td&gt;67&lt;/td&gt;
+&lt;td&gt;81&lt;/td&gt;
+&lt;td&gt;55&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Manchester United FC&lt;/td&gt;
+&lt;td&gt;66&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;65&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chelsea FC&lt;/td&gt;
+&lt;td&gt;66&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;65&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Leicester City FC&lt;/td&gt;
+&lt;td&gt;62&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;73&lt;/td&gt;
+&lt;td&gt;37&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tottenham Hotspur FC&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;56&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wolverhampton Wanderers FC&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;58&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Arsenal FC&lt;/td&gt;
+&lt;td&gt;56&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;55&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sheffield United FC&lt;/td&gt;
+&lt;td&gt;54&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;52&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Burnley FC&lt;/td&gt;
+&lt;td&gt;54&lt;/td&gt;
+&lt;td&gt;-7&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;-10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Southampton FC&lt;/td&gt;
+&lt;td&gt;52&lt;/td&gt;
+&lt;td&gt;-9&lt;/td&gt;
+&lt;td&gt;46&lt;/td&gt;
+&lt;td&gt;-15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Everton FC&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;td&gt;-12&lt;/td&gt;
+&lt;td&gt;54&lt;/td&gt;
+&lt;td&gt;-6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Newcastle United FC&lt;/td&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;td&gt;-20&lt;/td&gt;
+&lt;td&gt;46&lt;/td&gt;
+&lt;td&gt;-13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Crystal Palace FC&lt;/td&gt;
+&lt;td&gt;43&lt;/td&gt;
+&lt;td&gt;-19&lt;/td&gt;
+&lt;td&gt;47&lt;/td&gt;
+&lt;td&gt;-12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Brighton &amp;amp; Hove Albion FC&lt;/td&gt;
+&lt;td&gt;41&lt;/td&gt;
+&lt;td&gt;-15&lt;/td&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;td&gt;-11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;West Ham United FC&lt;/td&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;td&gt;-13&lt;/td&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;td&gt;-17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aston Villa FC&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;-26&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AFC Bournemouth&lt;/td&gt;
+&lt;td&gt;34&lt;/td&gt;
+&lt;td&gt;-25&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;-32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Watford FC&lt;/td&gt;
+&lt;td&gt;34&lt;/td&gt;
+&lt;td&gt;-28&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;-26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Norwich City FC&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;-49&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;-39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The model performs well on the whole. There are exceptions such as Leicester, who had a poor finish to the season that did not reflect the training data. Leicester have been weak finishers in the recent past, so one way to improve the model would be to include data from previous seasons.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Find the working model code &lt;a href=&#34;https://github.com/theorashid/probabilistic-programming-packages/blob/main/models/python/pyro-mod.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to @martinjankowiak on the Pyro forum for all the help making this run. Find the discussion &lt;a href=&#34;https://forum.pyro.ai/t/hierarchical-model-guide-with-plate/3079&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

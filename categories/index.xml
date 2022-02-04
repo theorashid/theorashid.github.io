@@ -1,47 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Theo Rashid</title>
+    <title>Categories | Theo Rashid</title>
     <link>https://theorashid.github.io/categories/</link>
-    <description>Recent content in Categories on Theo Rashid</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>football</title>
-      <link>https://theorashid.github.io/category/football/</link>
-      <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/category/football/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>modelling</title>
-      <link>https://theorashid.github.io/category/modelling/</link>
-      <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/category/modelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>probabilistic programming</title>
-      <link>https://theorashid.github.io/category/probabilistic-programming/</link>
-      <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/category/probabilistic-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://theorashid.github.io/category/statistics/</link>
-      <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/category/statistics/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://theorashid.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate>
+    <image>
+      <url>https://theorashid.github.io/media/goal.png</url>
+      <title>Categories</title>
+      <link>https://theorashid.github.io/categories/</link>
+    </image>
     
   </channel>
 </rss>

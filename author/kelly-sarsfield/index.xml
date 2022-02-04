@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kelly Sarsfield on Theo Rashid</title>
+    <title>Kelly Sarsfield | Theo Rashid</title>
     <link>https://theorashid.github.io/author/kelly-sarsfield/</link>
-    <description>Recent content in Kelly Sarsfield on Theo Rashid</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/author/kelly-sarsfield/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://theorashid.github.io/author/kelly-sarsfield/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kelly Sarsfield</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://theorashid.github.io/media/goal.png</url>
+      <title>Kelly Sarsfield</title>
+      <link>https://theorashid.github.io/author/kelly-sarsfield/</link>
+    </image>
+    
     <item>
       <title>Making a COVID-19 vaccine that works for everyone: ensuring equity and inclusivity in clinical trials</title>
       <link>https://theorashid.github.io/publication/pepperrell-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://theorashid.github.io/publication/pepperrell-2021/</guid>
       <description></description>
     </item>

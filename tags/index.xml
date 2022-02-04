@@ -1,146 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Theo Rashid</title>
+    <title>Tags | Theo Rashid</title>
     <link>https://theorashid.github.io/tags/</link>
-    <description>Recent content in Tags on Theo Rashid</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bayesian</title>
-      <link>https://theorashid.github.io/tag/bayesian/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/bayesian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gaussian process</title>
-      <link>https://theorashid.github.io/tag/gaussian-process/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/gaussian-process/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>modelling&#34;</title>
-      <link>https://theorashid.github.io/tag/modelling/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/modelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>probabilistic programming</title>
-      <link>https://theorashid.github.io/tag/probabilistic-programming/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/probabilistic-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>variational autoencoder</title>
-      <link>https://theorashid.github.io/tag/variational-autoencoder/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/variational-autoencoder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mortality</title>
-      <link>https://theorashid.github.io/tag/mortality/</link>
-      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/mortality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid-19</title>
-      <link>https://theorashid.github.io/tag/covid-19/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/covid-19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>degrowth</title>
-      <link>https://theorashid.github.io/tag/degrowth/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/degrowth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trials</title>
-      <link>https://theorashid.github.io/tag/trials/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/trials/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coronavirus</title>
-      <link>https://theorashid.github.io/tag/coronavirus/</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/coronavirus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>intensity</title>
-      <link>https://theorashid.github.io/tag/intensity/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/intensity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life cycle</title>
-      <link>https://theorashid.github.io/tag/life-cycle/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/life-cycle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rapid intensification</title>
-      <link>https://theorashid.github.io/tag/rapid-intensification/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/rapid-intensification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rapid weakening</title>
-      <link>https://theorashid.github.io/tag/rapid-weakening/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/rapid-weakening/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tropical cyclone</title>
-      <link>https://theorashid.github.io/tag/tropical-cyclone/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://theorashid.github.io/tag/tropical-cyclone/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://theorashid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://theorashid.github.io/media/goal.png</url>
+      <title>Tags</title>
+      <link>https://theorashid.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>
