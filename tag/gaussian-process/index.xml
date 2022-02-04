@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gaussian process | Theo Rashid</title>
+    <title>gaussian process on Theo Rashid</title>
     <link>https://theorashid.github.io/tag/gaussian-process/</link>
-      <atom:link href="https://theorashid.github.io/tag/gaussian-process/index.xml" rel="self" type="application/rss+xml" />
-    <description>gaussian process</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://theorashid.github.io/media/goal.png</url>
-      <title>gaussian process</title>
-      <link>https://theorashid.github.io/tag/gaussian-process/</link>
-    </image>
-    
+    <description>Recent content in gaussian process on Theo Rashid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/tag/gaussian-process/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encoding spatiotemporal priors with VAEs for small-area estimation</title>
       <link>https://theorashid.github.io/publication/semenova-2021/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://theorashid.github.io/publication/semenova-2021/</guid>
       <description></description>
     </item>

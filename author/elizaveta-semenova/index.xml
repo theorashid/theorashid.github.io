@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Elizaveta Semenova | Theo Rashid</title>
+    <title>Elizaveta Semenova on Theo Rashid</title>
     <link>https://theorashid.github.io/author/elizaveta-semenova/</link>
-      <atom:link href="https://theorashid.github.io/author/elizaveta-semenova/index.xml" rel="self" type="application/rss+xml" />
-    <description>Elizaveta Semenova</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://theorashid.github.io/media/goal.png</url>
-      <title>Elizaveta Semenova</title>
-      <link>https://theorashid.github.io/author/elizaveta-semenova/</link>
-    </image>
-    
+    <description>Recent content in Elizaveta Semenova on Theo Rashid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/author/elizaveta-semenova/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encoding spatiotemporal priors with VAEs for small-area estimation</title>
       <link>https://theorashid.github.io/publication/semenova-2021/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://theorashid.github.io/publication/semenova-2021/</guid>
       <description></description>
     </item>

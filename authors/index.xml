@@ -1,16 +1,353 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Theo Rashid</title>
+    <title>Authors on Theo Rashid</title>
     <link>https://theorashid.github.io/authors/</link>
-      <atom:link href="https://theorashid.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate>
-    <image>
-      <url>https://theorashid.github.io/media/goal.png</url>
-      <title>Authors</title>
-      <link>https://theorashid.github.io/authors/</link>
-    </image>
+    <description>Recent content in Authors on Theo Rashid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2022 12:42:43 +0000</lastBuildDate><atom:link href="https://theorashid.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theo Rashid</title>
+      <link>https://theorashid.github.io/author/theo-rashid/</link>
+      <pubDate>Fri, 14 Jan 2022 12:42:43 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/theo-rashid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adam Howes</title>
+      <link>https://theorashid.github.io/author/adam-howes/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/adam-howes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elizaveta Semenova</title>
+      <link>https://theorashid.github.io/author/elizaveta-semenova/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/elizaveta-semenova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samir Bhatt</title>
+      <link>https://theorashid.github.io/author/samir-bhatt/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/samir-bhatt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seth Flaxman</title>
+      <link>https://theorashid.github.io/author/seth-flaxman/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/seth-flaxman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swapnil Mishra</title>
+      <link>https://theorashid.github.io/author/swapnil-mishra/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/swapnil-mishra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yidan Xu</title>
+      <link>https://theorashid.github.io/author/yidan-xu/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/yidan-xu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bethan Davies</title>
+      <link>https://theorashid.github.io/author/bethan-davies/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/bethan-davies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christopher J Paciorek </title>
+      <link>https://theorashid.github.io/author/christopher-j-paciorek/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/christopher-j-paciorek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Johnson</title>
+      <link>https://theorashid.github.io/author/eric-johnson/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/eric-johnson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guangquan Li</title>
+      <link>https://theorashid.github.io/author/guangquan-li/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/guangquan-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hima I Daby</title>
+      <link>https://theorashid.github.io/author/hima-i-daby/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/hima-i-daby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>James E Bennett</title>
+      <link>https://theorashid.github.io/author/james-e-bennett/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/james-e-bennett/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonathan Pearson-Stuttard</title>
+      <link>https://theorashid.github.io/author/jonathan-pearson-stuttard/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/jonathan-pearson-stuttard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Majid Ezzati</title>
+      <link>https://theorashid.github.io/author/majid-ezzati/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/majid-ezzati/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mireille B Toledano</title>
+      <link>https://theorashid.github.io/author/mireille-b-toledano/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/mireille-b-toledano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yvonne Doyle</title>
+      <link>https://theorashid.github.io/author/yvonne-doyle/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/yvonne-doyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toby Pepperrell</title>
+      <link>https://theorashid.github.io/author/toby-pepperrell/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/toby-pepperrell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Florence Rodgers</title>
+      <link>https://theorashid.github.io/author/florence-rodgers/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/florence-rodgers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kelly Sarsfield</title>
+      <link>https://theorashid.github.io/author/kelly-sarsfield/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/kelly-sarsfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molly Pugh-Jones</title>
+      <link>https://theorashid.github.io/author/molly-pugh-jones/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/molly-pugh-jones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pranav Tandon</title>
+      <link>https://theorashid.github.io/author/pranav-tandon/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/pranav-tandon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sarai Keestra</title>
+      <link>https://theorashid.github.io/author/sarai-keestra/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/sarai-keestra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bin Zhou</title>
+      <link>https://theorashid.github.io/author/bin-zhou/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/bin-zhou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colin D Mathers</title>
+      <link>https://theorashid.github.io/author/colin-d-mathers/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/colin-d-mathers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gianni Corsetti</title>
+      <link>https://theorashid.github.io/author/gianni-corsetti/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/gianni-corsetti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marco Battaglini</title>
+      <link>https://theorashid.github.io/author/marco-battaglini/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/marco-battaglini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mariachiara Di Cesare</title>
+      <link>https://theorashid.github.io/author/mariachiara-di-cesare/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/mariachiara-di-cesare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin McKee</title>
+      <link>https://theorashid.github.io/author/martin-mckee/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/martin-mckee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michel Guillot</title>
+      <link>https://theorashid.github.io/author/michel-guillot/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/michel-guillot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perviz Asaria</title>
+      <link>https://theorashid.github.io/author/perviz-asaria/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/perviz-asaria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robbie M Parks</title>
+      <link>https://theorashid.github.io/author/robbie-m-parks/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/robbie-m-parks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vasilis Kontis</title>
+      <link>https://theorashid.github.io/author/vasilis-kontis/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/vasilis-kontis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henry Throp</title>
+      <link>https://theorashid.github.io/author/henry-throp/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/henry-throp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ralf Toumi</title>
+      <link>https://theorashid.github.io/author/ralf-toumi/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/ralf-toumi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shuai Wang</title>
+      <link>https://theorashid.github.io/author/shuai-wang/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/shuai-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marta Blangiardo</title>
+      <link>https://theorashid.github.io/author/marta-blangiardo/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/marta-blangiardo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theo Rashid</title>
+      <link>https://theorashid.github.io/author/theo-rashid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theorashid.github.io/author/theo-rashid/</guid>
+      <description>I am currently studying for a PhD in the Global Environmental Health group at the School of Public Health, Imperial College London under the supervision of Majid Ezzati, James Bennett, Seth Flaxman and Mireille Toledano.</description>
+    </item>
     
   </channel>
 </rss>
