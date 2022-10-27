@@ -1,6 +1,5 @@
 # theorashid.github.io
-
-Site generated using [Mizi](https://github.com/abstractxan/Mizi). Inspired from [hundredrabbits/100r.co](100r.co)
+I wanted a site that was much quicker than all the hugo templates. And much less code – better for the environment and all that. Site generated using [Mizi](https://github.com/abstractxan/Mizi). Inspired from [hundredrabbits/100r.co](100r.co).
 
 ## run
 - Update `src/config.conf` for your webpages
