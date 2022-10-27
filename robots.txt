@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://theorashid.github.io/sitemap.xml
