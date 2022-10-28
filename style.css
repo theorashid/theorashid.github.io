@@ -275,6 +275,12 @@ body footer p a {
   text-decoration: underline;
 }
 
+body footer img {
+  max-height: 30px;
+  max-width: 30px;
+  margin-right: 10px;
+}
+
 img.thumbnail {
   border-radius: 3px;
   max-width: calc(100% - 20px);

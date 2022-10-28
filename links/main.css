@@ -22,9 +22,9 @@
 }
 
 ::selection {
-  background: #eee;
+  background: #FBFBFB;
   opacity: 1.0;
-  color: #000;
+  color: #222222;
   padding: 10px;
   /* Safari */
 }
@@ -58,12 +58,12 @@
 }
 
 html {
-  background: white;
+  background: #FBFBFB;
 }
 
 body {
-  background: #fff;
-  color: #000;
+  background: #FBFBFB;
+  color: #222222;
   font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial;
   overflow-x: hidden;
   margin-top: 5px;
@@ -123,8 +123,6 @@ body main>ul {
   line-height: 20px
 }
 
-body main>ul li {}
-
 body main>ul li a {
   text-transform: capitalize;
   text-decoration: underline;
@@ -162,8 +160,8 @@ body main>code {
   font-size: 12px;
   margin-bottom: 30px;
   display: block;
-  background: black;
-  color: white;
+  background: #222222;
+  color: #FBFBFB;
   padding: 15px;
   white-space: pre
 }
@@ -195,15 +193,15 @@ body main>ul.jump li::marker {
 }
 
 body main>ul.jump li:hover {
-  background: black;
-  color: white;
+  background: #222222;
+  color: #FBFBFB;
 }
 
 body main a.button {
   font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;
-  background-color: #000000;
+  background-color: #222222;
   border: none;
-  color: white;
+  color: #FBFBFB;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -214,16 +212,12 @@ body main a.button {
 body main a.button:hover {
   background-color: #727272 !important;
   border: none;
-  color: white;
+  color: #FBFBFB;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-body main a.button.patreon {
-  background-color: #e75942;
 }
 
 body main ul.gallery {
@@ -233,7 +227,7 @@ body main ul.gallery {
 body main ul.gallery li {
   clear: both;
   display: block;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #222222;
   height: 170px;
   margin-top: -2px;
 }
@@ -270,7 +264,7 @@ body main ul.gallery li h4 {
 }
 
 body footer {
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid #222222;
   padding-top: 30px;
   margin-bottom: 120px;
   max-width: 600px

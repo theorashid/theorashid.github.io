@@ -7,7 +7,7 @@
 #include "../include/helpers.hpp"
 
 using namespace std;
-std::string defaultConfig("shortcut_icon=../media/interface/favicon.ico\nicon=../media/interface/favicon.ico\nname=Mizi\ndescription=Site generated using Mizi\ncreator=abstractxan\nheader=<a id='logo' href='home.html'><img src='../media/interface/logo.png' alt='logo' ></a>\nfooter=<p>Website generated using <u><a href='https://github.com/abstractxan/Mizi'>abstractxan/Mizi</a><u></p>\ntemplatefile=template.conf\ncss=style.css\nsite=site/\nhead=<script id='MathJax-script' async src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>");
+std::string defaultConfig("shortcut_icon=../media/interface/favicon.ico\nicon=../media/interface/favicon.ico\nname=site\ndescription=site\ncreator=theorashid\nheader=<a id='logo' href='home.html'><img src='../media/interface/logo.png' alt='logo' ></a>\nfooter=<p>twitter<u><a href='https://twitter.com/theorashid'>theorashid</a><u></p>\ntemplatefile=template.conf\ncss=style.css\nsite=site/\nhead=<script id='MathJax-script' async src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>");
 
 Config *configParser()
 {
