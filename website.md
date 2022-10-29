@@ -2,9 +2,9 @@
 
 ## about
 ### 
-I am a statistician (data scientist, applied scientist). I am particularly interested in Bayesian statistics, spatiotemoporal statistics, probabilistic programming, time series methods, and generative modelling.
+I am a statistician (applied scientist, data scientist, machine learning person, etc.). I am particularly interested in Bayesian statistics, spatiotemoporal models, probabilistic programming, time series methods, and generative modelling.
 
-I am a PhD student at Imperial College London looking at small-area trends in mortality in England using both Bayesian parametric and nonparametric models, under the supervision of [Majid Ezzati](https://www.imperial.ac.uk/people/majid.ezzati), [James Bennett](https://www.imperial.ac.uk/people/umahx99) and [Seth Flaxman](https://sethrf.com). Before that, I studied theoretical physics, also at Imperial College, so I like any excuse to dig into the maths to speed up and scale Bayesian models (e.g. conjugate Gibbs samplers). I also interned as an applied scientist at Amazon where I implemented multivariate, probabilistic time series models to forecast product demand.
+I am a PhD student at Imperial College London looking at small-area trends in mortality in England using both Bayesian parametric and nonparametric models. I am supervised by [Majid Ezzati](https://www.imperial.ac.uk/people/majid.ezzati), [James Bennett](https://www.imperial.ac.uk/people/umahx99) and [Seth Flaxman](https://sethrf.com). Before that, I studied theoretical physics, also at Imperial College, so I like any excuse to dig into the maths to speed up and scale Bayesian models (e.g. conjugate Gibbs samplers). I also interned as an applied scientist at Amazon where I implemented multivariate, probabilistic time series models to forecast product demand.
 
 I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything you're working on that you think might interest me. If you're in London – or if you want to invite me to your part of the world – contact me using the links in the footer.
 
@@ -12,20 +12,23 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 
 ## work
 ### code
-[probabilistic-programming-packages](https://github.com/theorashid/probabilistic-programming-packages). Implementing the same forecasting model in many probabilistic programming languages from python, R and Julia.
+[probabilistic-programming-packages](https://github.com/theorashid/probabilistic-programming-packages). Implementing the same forecasting model in many probabilistic programming languages in python, R and Julia.
 [mortality-statsmodel](https://github.com/theorashid/mortality-statsmodel). Scalable hierarchical Bayesian models for modelling mortality over space and time, in nimble and numpyro.
-[numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an example on spatiotemporal modelling, and the conditional autoregressive distribution
+[numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an example on spatiotemporal modelling, and the conditional autoregressive distribution.
 
 I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [aemcmc](https://github.com/aesara-devs/aemcmc), [dynamax](https://github.com/probml/dynamax), [pymc](https://github.com/pymc-devs/pymc), [GPJax](https://github.com/thomaspinder/GPJax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
 ### visualisations
 [Life expectancy for 6,791 communities in England](https://equitablehealthycities.org/focus-cities/london/mortality-map-england/). Interactive map of small-area life expectancy in England, written in D3.js.
 
+### media
+[Decades-long drop in life expectancy leaves the North more exposed to Covid](https://www.telegraph.co.uk/news/2021/10/12/decades-long-drop-life-expectancy-leaves-north-exposed-covid/). Sarah Knapton, The Telegraph. 12 October 2021.
+
 ### thesis
 working on [it](https://theorashid.github.io/thesis/)
 
 ### publications
-Perviz Asaria, James E Bennett, Paul Elliott, Theo Rashid, et al. (2022). [Contributions of event rates, pre-hospital deaths and hospital case fatality to variations in myocardial infarction mortality in 326 districts in England: spatial analysis of linked hospitalisation and mortality data](https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(22)00108-6/fulltext). The Lancet Public Health.
+Perviz Asaria, James E Bennett, Paul Elliott, Theo Rashid, et al. (2022). [Contributions of event rates, pre-hospital deaths and hospital case fatality to variations in myocardial infarction mortality in 326 districts in England: spatial analysis of linked hospitalisation and mortality data](https://doi.org/10.1016/S2468-2667(22)00108-6). The Lancet Public Health.
 
 Elizaveta Semenova, Yidan Xu, Adam Howes, Theo Rashid, et al. (2022). [PriorVAE: encoding spatial priors with variational autoencoders for small-area estimation](https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0094). Journal of the Royal Society Interface.
 
