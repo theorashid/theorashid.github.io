@@ -15,8 +15,9 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 [probabilistic-programming-packages](https://github.com/theorashid/probabilistic-programming-packages). Implementing the same forecasting model in many probabilistic programming languages in python, R and Julia.
 [mortality-statsmodel](https://github.com/theorashid/mortality-statsmodel). Scalable hierarchical Bayesian models for modelling mortality over space and time, in nimble and numpyro.
 [numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an example on spatiotemporal modelling, and the conditional autoregressive distribution.
+[pymc](https://github.com/pymc-devs/pymc). Several contributions, some moments of probability distributions.
 
-I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [aemcmc](https://github.com/aesara-devs/aemcmc), [dynamax](https://github.com/probml/dynamax), [pymc](https://github.com/pymc-devs/pymc), [GPJax](https://github.com/thomaspinder/GPJax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
+I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [aemcmc](https://github.com/aesara-devs/aemcmc), [dynamax](https://github.com/probml/dynamax), [GPJax](https://github.com/thomaspinder/GPJax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
 ### visualisations
 [Life expectancy for 6,791 communities in England](https://equitablehealthycities.org/focus-cities/london/mortality-map-england/). Interactive map of small-area life expectancy in England, written in D3.js.
