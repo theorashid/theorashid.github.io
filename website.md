@@ -8,7 +8,7 @@ I am a PhD student at Imperial College London looking at small-area trends in mo
 
 I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything you're working on that you think might interest me. If you're in London – or if you want to invite me to your part of the world – contact me using the links in the footer.
 
-![baseball](../media/baseball.jpeg)
+![baseball](../media/baseball.webp)
 
 ## work
 ### code
@@ -29,7 +29,7 @@ I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [a
 working on [it](https://theorashid.github.io/thesis/)
 
 ### publications
-Perviz Asaria, James E Bennett, Paul Elliott, Theo Rashid, et al. (2022). [Contributions of event rates, pre-hospital deaths and hospital case fatality to variations in myocardial infarction mortality in 326 districts in England: spatial analysis of linked hospitalisation and mortality data](https://doi.org/10.1016/S2468-2667(22)00108-6). The Lancet Public Health.
+Perviz Asaria, James E Bennett, Paul Elliott, Theo Rashid, et al. (2022). [Contributions of event rates, pre-hospital deaths and hospital case fatality to variations in myocardial infarction mortality in 326 districts in England: spatial analysis of linked hospitalisation and mortality data](https://www.sciencedirect.com/science/article/pii/S2468266722001086). The Lancet Public Health.
 
 Elizaveta Semenova, Yidan Xu, Adam Howes, Theo Rashid, et al. (2022). [PriorVAE: encoding spatial priors with variational autoencoders for small-area estimation](https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0094). Journal of the Royal Society Interface.
 
@@ -48,6 +48,6 @@ Shuai Wang, Theo Rashid, Henry Throp, Ralf Toumi (2020). [A Shortening of the Li
 Vasilis Kontis, James E Bennett, Robbie M Parks, Theo Rashid, et al. (2020). [Age- and sex-specific total mortality impacts of the early weeks of the COVID-19 pandemic in England and Wales: Application of a Bayesian model ensemble to mortality statistics](https://doi.org/10.1101/2020.05.20.20107680). medRxiv.
 
 ### goals
-![goal](../media/goal.jpeg)
+![goal](../media/goal.webp)
 
 ## [cv](https://theorashid.github.io/cv/)
