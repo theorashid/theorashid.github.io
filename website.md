@@ -17,6 +17,7 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 [numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an example on spatiotemporal modelling, and the conditional autoregressive distribution.
 [pymc](https://github.com/pymc-devs/pymc). Several contributions, some moments of probability distributions.
 [aesara](https://github.com/aesara-devs/aesara). Half-Normal and Half-Cauchy jax distributions.
+[Journal of Open Source Software](https://github.com/openjournals/joss-reviews). Review of the GPJax package.
 
 I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [aemcmc](https://github.com/aesara-devs/aemcmc), [dynamax](https://github.com/probml/dynamax), [GPJax](https://github.com/thomaspinder/GPJax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
