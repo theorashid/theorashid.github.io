@@ -31,11 +31,17 @@ I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [a
 working on [it](https://theorashid.github.io/thesis/)
 
 ### publications
+Seth Flaxman, Charles Whittaker, Elizaveta Semenova, Theo Rashid, et al. (2023). [Assessment of COVID-19 as the underlying cause of death among children and young people aged 0 to 19 years in the US](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800816). JAMA Network Open.
+
+Theo Rashid, James E Bennett, et al. (2023). [Changes in life expectancy and house prices in London from 2002 to 2019: hyper-resolution spatiotemporal analysis of death registration and real estate data](https://doi.org/10.1016/j.lanepe.2022.100580). The Lancet Regional Health Europe.
+
+Ricky Nathvani, Sierra N Clark, et al. (2022). [Characterisation of urban environment and activity across space and time using street images and deep learning in Accra](https://www.nature.com/articles/s41598-022-24474-1). Scientific Reports.
+
 Perviz Asaria, James E Bennett, Paul Elliott, Theo Rashid, et al. (2022). [Contributions of event rates, pre-hospital deaths and hospital case fatality to variations in myocardial infarction mortality in 326 districts in England: spatial analysis of linked hospitalisation and mortality data](https://www.sciencedirect.com/science/article/pii/S2468266722001086). The Lancet Public Health.
 
 Elizaveta Semenova, Yidan Xu, Adam Howes, Theo Rashid, et al. (2022). [PriorVAE: encoding spatial priors with variational autoencoders for small-area estimation](https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0094). Journal of the Royal Society Interface.
 
-Vasilis Kontis, James E Bennett, Robbie M Parks, Theo Rashid, et al. (2022). [Lessons learned and lessons missed: impact of the coronavirus disease 2019 (COVID-19) pandemic on all-cause mortality in 40 industrialised countries and US states prior to mass vaccination](https://wellcomeopenresearch.org/articles/6-279/v2). Wellcome Open Research,
+Vasilis Kontis, James E Bennett, Robbie M Parks, Theo Rashid, et al. (2022). [Lessons learned and lessons missed: impact of the coronavirus disease 2019 (COVID-19) pandemic on all-cause mortality in 40 industrialised countries and US states prior to mass vaccination](https://wellcomeopenresearch.org/articles/6-279/v2). Wellcome Open Research.
 
 Theo Rashid, James E Bennett, Christopher J Paciorek, et al. (2021). [Life expectancy and risk of death in 6791 communities in England from 2002 to 2019: high-resolution spatiotemporal analysis of civil registration data](https://doi.org/10.1016/S2468-2667%2821%2900205-X). The Lancet Public Health.
 
