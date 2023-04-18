@@ -25,7 +25,7 @@ I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [a
 [Life expectancy for 6,791 communities in England](https://equitablehealthycities.org/focus-cities/london/mortality-map-england/). Interactive map of small-area life expectancy in England, written in D3.js.
 
 ### media
-[Why are Americans dying so young?](https://www.ft.com/content/653bbb26-8a22-4db3-b43d-c34a0b774303). John Burn-Murdoch, The Financial Times. 31 March 2023.
+[Why are Americans dying so young?](https://www.ft.com/content/653bbb26-8a22-4db3-b43d-c34a0b774303) John Burn-Murdoch, The Financial Times. 31 March 2023.
 
 [Decades-long drop in life expectancy leaves the North more exposed to Covid](https://www.telegraph.co.uk/news/2021/10/12/decades-long-drop-life-expectancy-leaves-north-exposed-covid/). Sarah Knapton, The Telegraph. 12 October 2021.
 
