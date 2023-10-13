@@ -12,12 +12,12 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 
 ## work
 ### code
-[numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an example on spatiotemporal modelling, and the conditional autoregressive distribution.
-[pymc](https://github.com/pymc-devs/pymc). Several contributions, some moments of probability distributions, Hilbert space approximations to the periodic Gaussian process kernel.
-[aesara](https://github.com/aesara-devs/aesara)/[pytensor](https://github.com/pymc-devs/pytensor). Half-Normal and Half-Cauchy jax distributions.
+[numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an [example on spatiotemporal modelling](https://github.com/pyro-ppl/numpyro/pull/1295), and the [conditional autoregressive distribution](https://github.com/pyro-ppl/numpyro/pull/1394).
+[pymc](https://github.com/pymc-devs/pymc). Several contributions, including [Hilbert space approximations to the periodic Gaussian process kernel](https://github.com/pymc-devs/pymc/pull/6877), some [moments of probability distributions](https://github.com/pymc-devs/pymc/pull/5163), and extra [GitHub workflows](https://github.com/pymc-devs/pymc/pull/5490).
+[aesara](https://github.com/aesara-devs/aesara)/[pytensor](https://github.com/pymc-devs/pytensor). Half-Normal and Half-Cauchy [jax distributions](https://github.com/aesara-devs/aesara/pull/1362).
 [probabilistic-programming-packages](https://github.com/theorashid/probabilistic-programming-packages). Implementing the same forecasting model in many probabilistic programming languages in python, R and Julia.
 [mortality-statsmodel](https://github.com/theorashid/mortality-statsmodel). Scalable hierarchical Bayesian models for modelling mortality over space and time, in nimble and numpyro.
-[Journal of Open Source Software](https://github.com/openjournals/joss-reviews). Review of the GPJax package.
+[Journal of Open Source Software](https://github.com/openjournals/joss-reviews). [Review of the GPJax package](https://github.com/openjournals/joss-reviews/issues/4455).
 
 I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [dynamax](https://github.com/probml/dynamax), [GPJax](https://github.com/thomaspinder/GPJax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
