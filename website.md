@@ -4,10 +4,11 @@
 ### 
 I am a statistician (applied scientist, data scientist, machine learning person, etc.). I am particularly interested in Bayesian statistics, probabilistic programming, spatiotemoporal models, time series methods, and generative modelling.
 
-I am currently working with [Seth Flaxman](https://sethrf.com) and the UN World Food Programme on modelling food insecurity using mobile phone survey data. I am also about to complete my PhD at Imperial College London looking at small-area trends in mortality in England using scalable Bayesian models, supervised by [Majid Ezzati](https://www.imperial.ac.uk/people/majid.ezzati), [James Bennett](https://www.imperial.ac.uk/people/umahx99) and [Seth Flaxman](https://sethrf.com). Before that, I studied theoretical physics, also at Imperial College, so I like any excuse to dig into the maths to speed up and scale Bayesian models (e.g. conjugate Gibbs samplers). I also interned as an applied scientist at Amazon where I implemented multivariate, probabilistic time series models to forecast product demand.
+I am currently working with [Seth Flaxman](https://sethrf.com) and the UN World Food Programme on modelling food insecurity using mobile phone survey data. I recently completed my PhD at Imperial College London looking at small-area trends in mortality in England using scalable Bayesian models, supervised by [Majid Ezzati](https://www.imperial.ac.uk/people/majid.ezzati), [James Bennett](https://www.imperial.ac.uk/people/umahx99) and [Seth Flaxman](https://sethrf.com). Before that, I studied theoretical physics, also at Imperial College, so I like any excuse to dig into the maths to speed up and scale Bayesian models (e.g. conjugate Gibbs samplers). I also interned as an applied scientist at Amazon where I implemented multivariate, probabilistic time series models to forecast product demand.
 
 I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything you're working on that you think might interest me. If you're in London – or if you want to invite me to your part of the world – contact me using the links in the footer.
 
+![jacket](../media/jacket.webp)
 ![baseball](../media/baseball.webp)
 
 ## work
@@ -32,9 +33,13 @@ I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [d
 Also on life expectancy in England: Polly Toynbee for [the Guardian](https://www.theguardian.com/commentisfree/2021/oct/15/tory-austerity-deaths-cut-human-cost-cruel-policy), Danny Dorling for [openDemocracy](https://www.opendemocracy.net/en/nhs-a-and-e-delays-austerity-emergency-care-hospitals-hunt-hancock-lansley/), [the FT](https://www.ft.com/content/3d25b1c9-33bf-448a-bb07-6a0fc3a8a603), [BBC News](https://www.bbc.co.uk/news/uk-58893328), [Daily Mail](https://www.dailymail.co.uk/health/article-10084055/Life-expectancy-falling-fifth-English-communities-Covid-struck.html), [Evening Standard](https://www.standard.co.uk/news/uk/england-life-expectancy-imperial-college-london-government-london-b960199.html), [Independent](https://www.independent.co.uk/news/health/northern-england-life-expectancy-decline-b1937537.html), [Metro](https://metro.co.uk/2021/10/13/life-expectancy-varies-by-nearly-30-years-depending-on-where-you-live-in-england-15412913/), [Sky News](https://news.sky.com/story/life-expectancy-declines-in-england-before-covid-hit-with-big-north-south-divide-new-data-shows-12432798), [politics.co.uk](https://www.politics.co.uk/news-in-brief/life-expectancy-declined-in-parts-of-the-north-over-past-decade/), and more.
 
 ### thesis
-working on [it](https://theorashid.github.io/thesis/)
+[Spatiotemporal modelling of all-cause and cause-specific mortality in England](https://theorashid.github.io/thesis/)
+Supervisors: Majid Ezzati, James E Bennett, Seth Flaxman
+Examiners: Usama Bilal, Marta Blangiardo, Oliver Ratmann
 
 ### publications
+Theo Rashid, James E Bennett, et al. (2024). [Mortality from leading cancers in districts of England from 2002 to 2019: a population-based, spatiotemporal study](https://doi.org/10.1016/S1470-2045(23)00530-2). The Lancet Oncology.
+
 Ricky Nathvani, Vishwanath D., et al. (2023). [Beyond here and now: Evaluating pollution estimation across space and time from street view images with deep learning](https://doi.org/10.1016/j.scitotenv.2023.166168). Science of The Total Environment.
 
 Seth Flaxman, Charles Whittaker, Elizaveta Semenova, Theo Rashid, et al. (2023). [Assessment of COVID-19 as the underlying cause of death among children and young people aged 0 to 19 years in the US](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800816). JAMA Network Open.
