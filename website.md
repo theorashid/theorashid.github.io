@@ -38,7 +38,7 @@ Supervisors: Majid Ezzati, James E Bennett, Seth Flaxman
 Examiners: Usama Bilal, Marta Blangiardo, Oliver Ratmann
 
 ### publications
-Theo Rashid, James E Bennett, et al. (2024). [Mortality from leading cancers in districts of England from 2002 to 2019: a population-based, spatiotemporal study](https://doi.org/10.1016/S1470-2045(23)00530-2). The Lancet Oncology.
+Theo Rashid, James E Bennett, et al. (2024). [Mortality from leading cancers in districts of England from 2002 to 2019: a population-based, spatiotemporal study](https://doi.org/10.1016/S1470-2045%2823%2900530-2). The Lancet Oncology.
 
 Ricky Nathvani, Vishwanath D., et al. (2023). [Beyond here and now: Evaluating pollution estimation across space and time from street view images with deep learning](https://doi.org/10.1016/j.scitotenv.2023.166168). Science of The Total Environment.
 
