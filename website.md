@@ -23,6 +23,8 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 
 I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [dynamax](https://github.com/probml/dynamax), [GPJax](https://github.com/thomaspinder/GPJax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
+I have moved my (more technical) Obsidian [notes](https://theorashid.github.io/notes/) online in an effort to learn in public and share knowledge.
+
 ### visualisations
 [Life expectancy for 6,791 communities in England](https://equitablehealthycities.org/focus-cities/london/mortality-map-england/). Interactive map of small-area life expectancy in England, written in D3.js.
 
@@ -71,5 +73,7 @@ Vasilis Kontis, James E Bennett, Robbie M Parks, Theo Rashid, et al. (2020). [Ag
 
 ### goals
 ![goal](../media/goal.webp)
+
+## [notes](https://theorashid.github.io/notes/)
 
 ## [cv](https://theorashid.github.io/cv/)
