@@ -71,6 +71,9 @@ Shuai Wang, Theo Rashid, Henry Throp, Ralf Toumi (2020). [A Shortening of the Li
 
 Vasilis Kontis, James E Bennett, Robbie M Parks, Theo Rashid, et al. (2020). [Age- and sex-specific total mortality impacts of the early weeks of the COVID-19 pandemic in England and Wales: Application of a Bayesian model ensemble to mortality statistics](https://doi.org/10.1101/2020.05.20.20107680). medRxiv.
 
+[google scholar profile](https://scholar.google.com/citations?view_op=list_works&hl=en&user=hoPzFGkAAAAJ)
+[mathematics genealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=314742)
+
 ### goals
 ![goal](../media/goal.webp)
 
