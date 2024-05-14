@@ -22,9 +22,9 @@
 }
 
 ::selection {
-  background: #FBFBFB;
+  background: #222222;
   opacity: 1.0;
-  color: #222222;
+  color: #FBFBFB;
   padding: 10px;
   /* Safari */
 }
