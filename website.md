@@ -29,6 +29,8 @@ I have moved my (more technical) Obsidian [notes](https://theorashid.github.io/n
 ### visualisations
 [Life expectancy for 6,791 communities in England](https://equitablehealthycities.org/focus-cities/london/mortality-map-england/). Interactive map of small-area life expectancy in England, written in D3.js.
 
+Life expectancy inequality at the MSOA level in England: remaking the main plot of my thesis in [D3.js](https://observablehq.com/d/79152026daedf243) and [Observable Plot](https://observablehq.com/d/3f751f12d7efb15c).
+
 ### media
 [Why are Americans dying so young?](https://www.ft.com/content/653bbb26-8a22-4db3-b43d-c34a0b774303) John Burn-Murdoch, The Financial Times. 31 March 2023.
 
