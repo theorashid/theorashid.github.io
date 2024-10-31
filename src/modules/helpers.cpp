@@ -243,8 +243,18 @@ string parseLinks(string text, string path, TemplateManager *templateMgr)
  */
 void checkProjectFileStructure(Config *conf)
 {
-    if (conf->css != "")
-        createFileIfDNE(conf->css, "");
+    if (conf->css != "") {
+        string cssPath = conf->css;
+        // Strip any leading ../ from path
+        if (cssPath.substr(0, 3) == "../") {
+            cssPath = cssPath.substr(3);
+        }
+        
+        // Check if exists in root directory
+        if (!ifstream("./"+cssPath).good()) {
+            createFileIfDNE("./"+cssPath, "");
+        }
+    }
 
     if (conf->templatefile != "")
         createFileIfDNE(conf->templatefile, "");
