@@ -13,7 +13,7 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 
 ## work
 ### code
-[numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an [example on spatiotemporal modelling](https://github.com/pyro-ppl/numpyro/pull/1295), and the [conditional autoregressive distribution](https://github.com/pyro-ppl/numpyro/pull/1394).
+[numpyro](https://github.com/pyro-ppl/numpyro). Several contributions, including an [example on spatiotemporal modelling](https://github.com/pyro-ppl/numpyro/pull/1295), the [conditional autoregressive distribution](https://github.com/pyro-ppl/numpyro/pull/1394), various [chores](https://github.com/pyro-ppl/numpyro/pull/2150).
 [pymc](https://github.com/pymc-devs/pymc). Several contributions, including [Hilbert space approximations to the periodic Gaussian process kernel](https://github.com/pymc-devs/pymc/pull/6877), decorator to allow a [functional-style model API](https://github.com/pymc-devs/pymc-extras/pull/268), some [moments of probability distributions](https://github.com/pymc-devs/pymc/pull/5163), extra [GitHub workflows](https://github.com/pymc-devs/pymc/pull/5490), organising hackathons to [implement approximate inference methods](https://github.com/pymc-devs/pymc-extras/issues/340) (INLA).
 [pytensor](https://github.com/pymc-devs/pytensor)/[aesara](https://github.com/aesara-devs/aesara). Half-Normal and Half-Cauchy [jax distributions](https://github.com/aesara-devs/aesara/pull/1362), implementation of a [fixed point iterator](https://github.com/pymc-devs/pytensor/pull/978) for optimisation.
 [bayeux](https://github.com/jax-ml/bayeux). [Example on using bayeux](https://github.com/jax-ml/bayeux/pull/28) to massively reduce [blackjax](https://github.com/blackjax-devs/blackjax) boilerplate inference code for a (jax) [dynamax](https://github.com/probml/dynamax) state space model.
@@ -24,6 +24,8 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 [cookiecutter-r-project](https://github.com/sparklabnyc/cookiecutter-r-project). Template for analysis projects in R.
 [numba-oslo](https://github.com/theorashid/numba-oslo). Simulating self-organised criticality efficiently using numba.
 [xarray-tropical-cyclones](https://github.com/theorashid/xarray-tropical-cyclones). Revisiting tropical cyclone data using arrays.
+[kalman-filter-jax](https://github.com/theorashid/kalman-filter-jax). Kalman filter implementation in jax, [Equinox](https://docs.kidger.site/equinox/), [nnx](https://flax.readthedocs.io/en/stable/why.html).
+[cuthbert-models](https://github.com/theorashid/cuthbert-models). State space model specification layer for the [cuthbert](https://github.com/state-space-models/cuthbert) inference library.
 
 I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [dynamax](https://github.com/probml/dynamax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
