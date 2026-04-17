@@ -17,17 +17,19 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 [pymc](https://github.com/pymc-devs/pymc). Several contributions, including [Hilbert space approximations to the periodic Gaussian process kernel](https://github.com/pymc-devs/pymc/pull/6877), decorator to allow a [functional-style model API](https://github.com/pymc-devs/pymc-extras/pull/268), some [moments of probability distributions](https://github.com/pymc-devs/pymc/pull/5163), extra [GitHub workflows](https://github.com/pymc-devs/pymc/pull/5490), organising hackathons to [implement approximate inference methods](https://github.com/pymc-devs/pymc-extras/issues/340) (INLA).
 [pytensor](https://github.com/pymc-devs/pytensor)/[aesara](https://github.com/aesara-devs/aesara). Half-Normal and Half-Cauchy [jax distributions](https://github.com/aesara-devs/aesara/pull/1362), implementation of a [fixed point iterator](https://github.com/pymc-devs/pytensor/pull/978) for optimisation.
 [bayeux](https://github.com/jax-ml/bayeux). [Example on using bayeux](https://github.com/jax-ml/bayeux/pull/28) to massively reduce [blackjax](https://github.com/blackjax-devs/blackjax) boilerplate inference code for a (jax) [dynamax](https://github.com/probml/dynamax) state space model.
-[GPJax](https://github.com/JaxGaussianProcesses/GPJax). [Allowing different solve methods](https://github.com/JaxGaussianProcesses/GPJax/pull/478) during approximate sampling.
+[GPJax](https://github.com/JaxGaussianProcesses/GPJax). [Allowing different solve methods](https://github.com/JaxGaussianProcesses/GPJax/pull/478) during approximate sampling, [Equinox backend with clean numpyro integration](https://github.com/thomaspinder/GPJax/pull/621).
 [Journal of Open Source Software](https://github.com/openjournals/joss-reviews). [Review of the GPJax package](https://github.com/openjournals/joss-reviews/issues/4455).
 [probabilistic-programming-packages](https://github.com/theorashid/probabilistic-programming-packages). Implementing the same forecasting model in many probabilistic programming languages in python, R and Julia.
 [mortality-statsmodel](https://github.com/theorashid/mortality-statsmodel). Scalable hierarchical Bayesian models for modelling mortality over space and time, in nimble and numpyro. These models have been generalised to other health outcomes in [bayesian-envhealth-models](https://github.com/sparklabnyc/bayesian-envhealth-models).
 [cookiecutter-r-project](https://github.com/sparklabnyc/cookiecutter-r-project). Template for analysis projects in R.
 [numba-oslo](https://github.com/theorashid/numba-oslo). Simulating self-organised criticality efficiently using numba.
 [xarray-tropical-cyclones](https://github.com/theorashid/xarray-tropical-cyclones). Revisiting tropical cyclone data using arrays.
+[blackjax](https://github.com/blackjax-devs/blackjax). Replacing [pmap with jax sharding API](https://github.com/blackjax-devs/blackjax/issues/805) for running multiple chains.
 [kalman-filter-jax](https://github.com/theorashid/kalman-filter-jax). Kalman filter implementation in jax, [Equinox](https://docs.kidger.site/equinox/), [nnx](https://flax.readthedocs.io/en/stable/why.html).
 [cuthbert-models](https://github.com/theorashid/cuthbert-models). State space model specification layer for the [cuthbert](https://github.com/state-space-models/cuthbert) inference library.
+[chronos2-jax](https://github.com/theorashid/chronos2-jax). jax-Equinox port of [Chronos-2](https://github.com/amazon-science/chronos-forecasting) time series foundation model.
 
-I'm also interested in [blackjax](https://github.com/blackjax-devs/blackjax), [dynamax](https://github.com/probml/dynamax), [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
+I'm also interested in [dynamax](https://github.com/probml/dynamax), [dynestyx](https://github.com/BasisResearch/dynestyx) and [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
 I have moved my (more technical) Obsidian [notes](https://theorashid.github.io/notes/) online in an effort to learn in public and share knowledge.
 
