@@ -59,6 +59,8 @@ Victor P F Lhoste, Yefeng Fan, James E Bennett, Sarah Filippi, Christopher J Pac
 
 N.D. Ngoka, Theo Rashid, et al. (2026). [Build AI workflows on Amazon EKS with Union.ai and Flyte](https://aws.amazon.com/blogs/machine-learning/build-ai-workflows-on-amazon-eks-with-union-ai-and-flyte/). AWS Artificial Intelligence Blog.
 
+Sahoko Ishida, Adam Howes, Valerie Bradley, Elizaveta Semenova, Theo Rashid, et al. (2025). [Real-time small area estimation of food security in Zimbabwe: integrating mobile-phone and face-to-face surveys using joint multilevel regression and poststratification](https://arxiv.org/abs/2505.03517). arXiv preprint arXiv:2505.03517.
+
 Theo Rashid, James E Bennett, et al. (2024). [Mortality from leading cancers in districts of England from 2002 to 2019: a population-based, spatiotemporal study](https://doi.org/10.1016/S1470-2045%2823%2900530-2). The Lancet Oncology.
 
 Ricky Nathvani, Vishwanath D., et al. (2023). [Beyond here and now: Evaluating pollution estimation across space and time from street view images with deep learning](https://doi.org/10.1016/j.scitotenv.2023.166168). Science of The Total Environment.
