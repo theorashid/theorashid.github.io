@@ -53,8 +53,7 @@ void buildPage(Config *conf, Page *page, string path)
     string part_name = page->partName[i];
     string part_desc = page->partDesc[i];
     string part_index = toLowerCase(part_name);
-    htmlPage << "</ul><h2 id='" << part_index << "'>" << part_name
-             << "</h2>\n"; // Extra </ul> to keep a check on overflowing <ul>
+    htmlPage << "<h2 id='" << part_index << "'>" << part_name << "</h2>\n";
     htmlPage << part_desc << "\n";
   }
 

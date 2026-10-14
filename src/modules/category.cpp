@@ -44,7 +44,6 @@ Category **createCategories(Category *Categories[16], int *categoryCount, string
 
             if (line == "")
             {
-                currentPartDesc += "<br>";
                 continue;
             }
 
@@ -105,11 +104,13 @@ Category **createCategories(Category *Categories[16], int *categoryCount, string
                         printError(lineNo, "No Page assigned!");
                         return NULL;
                     }
-                    // Current Part Name
+                    if (uList == true) {
+                        currentPartDesc += "</ul>";
+                        uList = false;
+                    }
                     currentPartName = line.substr(i + 1, line.size() - i);
                     addPart(currentPage, currentPartName);
                     currentPartDesc = "";
-                    uList = false;
                 }
             }
             else

@@ -29,6 +29,7 @@ I'm keen to meet with anyone to chat about forecasting/maths/cricket or anything
 [cuthbert-models](https://github.com/theorashid/cuthbert-models). State space model specification layer for the [cuthbert](https://github.com/state-space-models/cuthbert) inference library.
 [dynestyx](https://github.com/BasisResearch/dynestyx). Large refactor to [remove requirement to use numpyro for inference](https://github.com/BasisResearch/dynestyx/pull/238) allowing optax optimisation for inference, [porting state space examples from dynamax](https://github.com/BasisResearch/dynestyx/pull/267).
 [chronos2-jax](https://github.com/theorashid/chronos2-jax). jax-Equinox port of [Chronos-2](https://github.com/amazon-science/chronos-forecasting) time series foundation model.
+[numpyro_forecast](https://github.com/juanitorduz/numpyro_forecast). Reviewer and [simplifying dynestyx integration](https://github.com/juanitorduz/numpyro_forecast/pull/148) for state space forecasting.
 
 I'm also interested in [dynamax](https://github.com/probml/dynamax) and [nimble](https://github.com/nimble-dev/nimble), and would like to contribute more when I get some time. If you're a developer of one of those projects and have something I can work on, please get in touch.
 
@@ -54,6 +55,8 @@ Supervisors: Majid Ezzati, James E Bennett, Seth Flaxman
 Examiners: Usama Bilal, Marta Blangiardo, Oliver Ratmann
 
 ### publications
+Victor P F Lhoste, Yefeng Fan, James E Bennett, Sarah Filippi, Christopher J Paciorek, Junyang Wang, Bin Zhou, Theo Rashid, Nowell H Phelps, Majid Ezzati. (2026). [Hierarchical Bayesian mixture model for subgroup-specific cardiometabolic phenotypes](https://doi.org/10.1093/jrsssa/qnag109). Journal of the Royal Statistical Society Series A: Statistics in Society.
+
 N.D. Ngoka, Theo Rashid, et al. (2026). [Build AI workflows on Amazon EKS with Union.ai and Flyte](https://aws.amazon.com/blogs/machine-learning/build-ai-workflows-on-amazon-eks-with-union-ai-and-flyte/). AWS Artificial Intelligence Blog.
 
 Theo Rashid, James E Bennett, et al. (2024). [Mortality from leading cancers in districts of England from 2002 to 2019: a population-based, spatiotemporal study](https://doi.org/10.1016/S1470-2045%2823%2900530-2). The Lancet Oncology.
